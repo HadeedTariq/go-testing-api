@@ -14,6 +14,7 @@ func main() {
 	api := application{
 		config: cfg,
 	}
+
 	logger := slog.New(slog.NewTextHandler(os.Stdout, nil))
 	slog.SetDefault(logger)
 
